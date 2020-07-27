@@ -23,4 +23,5 @@ urlpatterns = [
    # path('home/',views.home,name='home'),
    # path('fact/<n>',views.fact,name='fact'),
    path('',include("myapps.urls")),
+   path('myapps/',include("myapps.urls")),
 ]
